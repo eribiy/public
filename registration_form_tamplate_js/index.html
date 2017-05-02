@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="regForm">
+        <h3 class="formTitle">Sign up for your Account</h3>
+        <span class="formSubTitle">This is Photoshop's version  of Lorem Ipsum velit auctor aliquet.</span>
+        <form name="formReg" id="formReg" action="action.php" method="POST">
+            <ul>
+                <li><label class="label" for="email">email</label></li>
+                <li><input class="input" name="email" type="email" id="email" value="" autofocus></li>
+                <li><label class="label" for="name">username</label></li>
+                <li><input class="input" name="name" type="text" id="name" value=""></li>
+                <li><label class="label" for="password1">password</label></li>
+                <li><input class="input" name="password1" type="password" id="password1" value=""></li>
+                <li><label class="label" for="password2">confirm password</label></li>
+                <li><input class="input" name="password2" type="password" id="password2" value=""></li>
+                <li class="clearfix">
+                    <input class="checkbox" name="checkbox" id="checkbox" type="checkbox" value="">
+                    <label class="labelCheckbox" for="checkbox">I have read and agreed with the </label>
+                    <a class="link" href="#">terms and conditions</a>
+                    <input class="btn" type="submit" name="sign" value="sign up">
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+<script src="scripts/script.js"></script>
+</body>
+</html>

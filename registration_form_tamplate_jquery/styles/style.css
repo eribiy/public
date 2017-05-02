@@ -1,0 +1,117 @@
+.wrapper {
+    padding: 70px;
+    background: #8dc6cd;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #6b7b8a;
+}
+
+.regForm {
+    margin: 0 auto;
+    padding: 50px 70px;
+    border-radius: 5px;
+    width: 830px;
+    background: #fff;
+}
+
+.formTitle {
+    font-size: 41px;
+    margin-bottom: 26px;
+}
+
+.formSubTitle {
+    font-size: 19px;
+    font-weight: 600;
+
+}
+
+form {
+    margin-top: 48px;
+}
+
+ul, li {
+    position: relative;
+}
+
+li:nth-child(odd) {
+    margin: 48px 0 18px;
+}
+
+li:first-child {
+    margin: 0 0 18px;
+}
+
+.label {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.input {
+    background: #fbfbfb;
+    padding: 15px 29px;
+    width: 100%;
+    border: 2px solid #c6e2e6;
+    border-radius: 5px;
+    color: #6b7b8a;
+    font-size: 23px;
+}
+
+.input:focus {
+    background: #edf8f7;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.labelCheckbox, .link {
+    font-size: 17px;
+    line-height: 73px;
+    cursor: pointer;
+}
+
+.link {
+    color: #8dc6cd;
+    font-style: italic;
+}
+
+.btn {
+    float: right;
+    background: #ec4949;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 73px;
+}
+
+.btn:hover {
+    background: #FF4C4C;
+    cursor: pointer;
+}
+
+input:required:valid {
+    border-color: green;
+}
+
+.error {
+    position: absolute;
+    left: 5px;
+    bottom: -20px;
+    font-size: 14px;
+    color: red;
+}
+
+.errCbx {
+    bottom: 10px;
+}
+
+.errorInp {
+    border-color: red;
+}
+
+.sucsess {
+    border-color: green;
+}

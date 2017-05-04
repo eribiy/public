@@ -10,7 +10,7 @@
     margin: 0 auto;
     padding: 50px 70px;
     border-radius: 5px;
-    width: 830px;
+    max-width: 830px;
     background: #fff;
 }
 
@@ -126,4 +126,19 @@ a:focus, a:hover {
 
 .btn-submit:disabled:hover {
     background: #ec4949;
+}
+
+@media screen and (max-width: 880px) {
+    .btn-submit {
+        margin-top: 20px;
+    }
+    .form-wrap {
+        padding: 50px 70px 150px;
+    }
+    .labelCheckbox, .link {
+        line-height: 20px;
+    }
+    .inpCheckbox {
+        top: 0;
+    }
 }

@@ -70,3 +70,7 @@ img {
 strong {
     font-weight: 700;
 }
+
+input:focus, textarea:focus {
+    outline: none;
+}

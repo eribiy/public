@@ -1,6 +1,6 @@
 .wrapper_all {
     font-family: Arial, sans-serif;
-    overflow: hidden;
+    min-width: 900px;
     color: #939393;
 }
 .wrapper_header {

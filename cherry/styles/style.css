@@ -4,6 +4,7 @@ body {
 }
 .header-bg {
     background: #2a2a36;
+    min-width: 980px;
 }
 
 .header {
@@ -416,6 +417,7 @@ tr:last-child > td:last-child {
     text-decoration: underline;
 }
 .footer-bg {
+    min-width: 980px;
     background: #2a3136;
     border-top: 8px solid #ae4b5d;
 }

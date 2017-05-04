@@ -1,0 +1,129 @@
+
+.wrapper {
+    padding: 70px;
+    background: #8dc6cd;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #6b7b8a;
+}
+
+.form-wrap {
+    margin: 0 auto;
+    padding: 50px 70px;
+    border-radius: 5px;
+    width: 830px;
+    background: #fff;
+}
+
+.formTitle {
+    font-size: 41px;
+    margin-bottom: 26px;
+}
+
+.formSubTitle {
+    font-size: 19px;
+    font-weight: 600;
+
+}
+
+.labelName {
+    margin: 48px 0 18px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.inp-wrap {
+    margin: 0;
+}
+
+.input {
+    background: #fbfbfb;
+    padding: 15px 29px;
+    height: auto;
+    width: 100%;
+    border: 2px solid #c6e2e6;
+    border-radius: 5px;
+    color: #6b7b8a;
+    font-size: 23px;
+}
+
+.input:focus {
+    border-color: #c6e2e6;
+    background: #edf8f7;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+
+.checkbox-wrap {
+    display: inline-block;
+
+}
+
+.labelCheckbox {
+    position: relative;
+}
+
+.inpCheckbox {
+    top: 26px;
+    left: 22px;
+}
+
+.labelCheckbox, .link {
+    text-transform: none;
+    font-size: 17px;
+    line-height: 73px;
+    cursor: pointer;
+}
+
+.link {
+    color: #8dc6cd;
+    font-style: italic;
+}
+
+a:focus, a:hover {
+    color: #8dc6cd;
+    text-decoration: none;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+    outline-offset: 0;
+    color: #fff;
+}
+
+.btn.active, .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-submit {
+    float: right;
+    margin-top: 48px;
+    background: #ec4949;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 73px;
+}
+
+.btn-submit:hover {
+    background: #FF4C4C;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.btn-submit:disabled {
+    opacity: 0.5;
+    cursor: auto;
+}
+
+.btn-submit:disabled:hover {
+    background: #ec4949;
+}

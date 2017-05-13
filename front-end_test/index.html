@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Frontend-test</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper-page">
+    <div class="page clearfix">
+        <div class="personal">
+            <div class="person clearfix">
+                <div class="person-photo person-photo_layout">
+                    <a href="#">
+                        <img class="person-photo__img" alt="Вероника Ростова" src="images/photo.png">
+                    </a>
+                </div>
+                <div class="person-info person-info_layout">
+                    <h3 class="person-info__name person-info__name_layout">вероника ростова</h3>
+                    <h4 class="person-info__position">менеджер по продажам</h4>
+                </div>
+                <div class="person-phrase person-phrase_layout">
+                    <p class="person-phrase__text">Подберу для вас самые лучшие предложения. Мои услуги абсолютно беспатны</p>
+                </div>
+            </div>
+            <div class="services services_layout clearfix">
+                <table class="table table_layout">
+                    <tr class="head-row">
+                        <th></th>
+                        <th>Услуг</th>
+                    </tr>
+                    <tr class="empty-row">
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="progress-scale">Ручное бронирование</td>
+                        <td class="count">11</td>
+                    </tr>
+                    <tr>
+                        <td class="progress-scale progress-scale_tour">Пакетные туры</td>
+                        <td class="count">3</td>
+                    </tr>
+                    <tr>
+                        <td class="progress-scale progress-scale_hotel">Отели</td>
+                        <td class="count">1</td>
+                    </tr>
+                    <tr class="empty-row">
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="foot-row">
+                        <td>Всего</td>
+                        <td class="count">15</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="comments" class="comments comments_layout">
+            <div class="comments-head comments-head_layout clearfix">
+                <div class="comments-head-nav">
+                    <span class="comments-head-nav__last-comments comments-head-nav__last-comments_layout">последние отзывы</span>
+                    <a href="#"><span class="comments-head-nav__all-comments">все отзывы</span></a>
+                </div>
+                <div class="response">
+                    <div class="likes likes_layout">
+                        <span class="response__count">131</span>
+                    </div>
+                    <div class="messages messages_layout">
+                        <span class="response__count">14</span>
+                    </div>
+                </div>
+            </div>
+            <div class="comment comment_layout">
+                <span class="comment__name comment__name_layout">Самуил</span>
+                <span class="comment__date">13 октября 2011</span>
+                <div class="comment__text comment__text_layout">
+                    <p>Привет, Верунь! ниче себе ты крутая. фотка класс!!!!</p>
+                </div>
+            </div>
+            <div class="comment comment_layout">
+                <span class="comment__name comment__name_layout">Лилия Семёновна</span>
+                <span class="comment__date">14 октября 2011</span>
+                <div class="comment__text comment__text_layout">
+                    <p>Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</p>
+                </div>
+            </div>
+            <div class="comment comment_layout">
+                <span class="comment__name comment__name_layout">Лилия Семёновна</span>
+                <span class="comment__date">14 октября 2011</span>
+                <div class="comment__text comment__text_layout">
+                    <p>Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</p>
+                </div>
+            </div>
+            <div id="new_comment">
+                <div class="comment comment_layout">
+                    <span class="comment__name comment__name_layout"></span>
+                    <span class="comment__date"></span>
+                    <div class="comment__text comment__text_layout">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="create-comments">
+        <form class="create-comments-form">
+            <textarea id="create-comments-txt" class="create-comments-form__textarea"></textarea>
+            <input id="add-comment" type="submit" class="create-comments-form__submit create-comments-form__submit_layout" value="Написать консультанту">
+        </form>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+<script type="text/javascript" src="scripts/moment-with-locales.min.js"></script>
+</body>
+</html>
